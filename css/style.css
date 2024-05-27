@@ -224,6 +224,7 @@ footer p {
   }
 
   .inline-list, .inline-list1 {
+   
     flex-direction: row;
   }
 

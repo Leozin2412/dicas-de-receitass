@@ -1,42 +1,42 @@
 @font-face {
     font-family: "Nunito-Black";
     src: url(Nunito/Nunito-Black.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Nunito-Bold";
     src: url(Nunito/Nunito-Bold.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Nunito-ExtraBold";
     src: url(Nunito/Nunito-ExtraBold.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Nunito-Italic";
     src: url(Nunito/Nunito-Italic.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Nunito-Light";
     src: url(Nunito/Nunito-Light.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Nunito-Medium";
     src: url(Nunito/Nunito-Medium.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Nunito-Regular";
     src: url(Nunito/Nunito-Regular.ttf);
-  }
+}
 
 
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
 /* CSS Base */
 
@@ -108,7 +108,7 @@ form {
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
+}x
 
 input {
     background: #eee;
@@ -200,12 +200,16 @@ button.social.google {
 
 /* Celulares (até 600px) */
 @media (max-width: 600px) {
-    .header-container, .container {
+
+    .header-container,
+    .container {
         width: 90%;
     }
+
     .form-container {
         padding: 20px;
     }
+
     button {
         padding: 10px 35px;
         font-size: 10px;
@@ -214,12 +218,16 @@ button.social.google {
 
 /* Tablets (601px a 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
-    .header-container, .container {
+
+    .header-container,
+    .container {
         width: 80%;
     }
+
     .form-container {
         padding: 30px;
     }
+
     button {
         padding: 12px 40px;
         font-size: 11px;
@@ -228,12 +236,16 @@ button.social.google {
 
 /* Notebooks (901px a 1200px) */
 @media (min-width: 901px) and (max-width: 1200px) {
-    .header-container, .container {
+
+    .header-container,
+    .container {
         width: 70%;
     }
+
     .form-container {
         padding: 40px;
     }
+
     button {
         padding: 12px 45px;
         font-size: 12px;
@@ -242,12 +254,16 @@ button.social.google {
 
 /* Desktops (1201px em diante) */
 @media (min-width: 1201px) {
-    .header-container, .container {
+
+    .header-container,
+    .container {
         width: 70%;
     }
+
     .form-container {
         padding: 50px;
     }
+
     button {
         padding: 12px 45px;
         font-size: 12px;
