@@ -38,8 +38,9 @@
         box-sizing: border-box;
     }
 
-body {
+/* CSS Base */
 
+body {
     font-family: "";
     font-weight: 400;
     font-style: normal;
@@ -134,7 +135,6 @@ button {
     transition: transform 80ms ease-in;
     border-radius: 5px;
     margin-top: 20px;
-
 }
 
 .signup-container .signup-button {
@@ -194,4 +194,62 @@ button.social.google {
     color: white;
     border: 1px solid #F7753D;
     font-family: "Roboto-Thin";
+}
+
+/* Media Queries */
+
+/* Celulares (até 600px) */
+@media (max-width: 600px) {
+    .header-container, .container {
+        width: 90%;
+    }
+    .form-container {
+        padding: 20px;
+    }
+    button {
+        padding: 10px 35px;
+        font-size: 10px;
+    }
+}
+
+/* Tablets (601px a 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .header-container, .container {
+        width: 80%;
+    }
+    .form-container {
+        padding: 30px;
+    }
+    button {
+        padding: 12px 40px;
+        font-size: 11px;
+    }
+}
+
+/* Notebooks (901px a 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .header-container, .container {
+        width: 70%;
+    }
+    .form-container {
+        padding: 40px;
+    }
+    button {
+        padding: 12px 45px;
+        font-size: 12px;
+    }
+}
+
+/* Desktops (1201px em diante) */
+@media (min-width: 1201px) {
+    .header-container, .container {
+        width: 70%;
+    }
+    .form-container {
+        padding: 50px;
+    }
+    button {
+        padding: 12px 45px;
+        font-size: 12px;
+    }
 }
