@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Nunito-Black";
+    src: url(Nunito/Nunito-Black.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url(Nunito/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-ExtraBold";
+    src: url(Nunito/Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Italic";
+    src: url(Nunito/Nunito-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Light";
+    src: url(Nunito/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Medium";
+    src: url(Nunito/Nunito-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Regular";
+    src: url(Nunito/Nunito-Regular.ttf);
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    background-color: #F57B51;
+    padding: 20px 0;
+
+
+}
+
+header h1 {
+    font-family: "Nunito-Black";
+    font-size: xx-large;
+}
+
+div#aba {
+
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+
+.inline-list {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        font-family: "Nunito-Light";
+    }
+
+}
+
+.inline-list li {
+    padding: 0 180px;
+
+}
+
+.Receita h1 {
+    font-family: "Nunito-Bold";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: #ddd;
+    position: absolute;
+
+}
+
+footer p {
+    font-family: "Nunito-Italic";
+}
+
+.inline-list1 {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: #F57B51;
+        font-size: large;
+        font-family: "Nunito-Light"
+    }
+
+}
+
+.inline-list1 li {
+    padding: 0 140px;
+    /* Aplica padding horizontal aos itens da lista */
+}

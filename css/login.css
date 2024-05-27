@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "Nunito-Black";
+    src: url(Nunito/Nunito-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito-Bold";
+    src: url(Nunito/Nunito-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito-ExtraBold";
+    src: url(Nunito/Nunito-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito-Italic";
+    src: url(Nunito/Nunito-Italic.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito-Light";
+    src: url(Nunito/Nunito-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito-Medium";
+    src: url(Nunito/Nunito-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito-Regular";
+    src: url(Nunito/Nunito-Regular.ttf);
+  }
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+body {
+
+    font-family: "";
+    font-weight: 400;
+    font-style: normal;
+    background: #f6f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    flex: 1;
+    text-align: center;
+    font-family: "Roboto-Bold";
+    color: #333;
+}
+
+span {
+    font-family: "Roboto-Regular";
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+}
+
+.form-container {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: #fff;
+}
+
+.signup-container {
+    background-color: #F7753D;
+    color: white;
+}
+
+form {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.signup-container input {
+    background: #fff;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 45px;
+    background-color: #F7753D;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.signup-container .signup-button {
+    background-color: white;
+    color: #F7753D;
+    border: 2px solid #F7753D;
+}
+
+.signup-container .signup-button:hover {
+    background-color: #F7753D;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.social {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button.social.twitter {
+    background: #1DA1F2;
+}
+
+button.social.facebook {
+    background: #3B5998;
+}
+
+button.social.google {
+    background: #DB4437;
+}
+
+.social-container {
+    margin: 20px 0;
+}
+
+.signup-container .social-container button {
+    color: white;
+    border: 1px solid white;
+    font-family: "Roboto-Thin";
+}
+
+.login-container .social-container button {
+    color: white;
+    border: 1px solid #F7753D;
+    font-family: "Roboto-Thin";
+}
