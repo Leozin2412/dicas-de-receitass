@@ -84,6 +84,18 @@ div#aba {
     font-family: "Nunito-Bold";
 }
 
+.recipe-items h2{
+    font-family: "Nunito-Black";
+    background-color: #ddd;
+    width: 45%;
+ border-radius: 10px;
+ text-align: center;
+}
+ul{
+    list-style: none;
+    
+    
+}
 
 
 
@@ -106,8 +118,7 @@ footer {
     background: #333;
     color: #ddd;
     position: relative;
-
-}
+  }
 
 footer p {
     font-family: "Nunito-Italic";
