@@ -40,7 +40,7 @@ body {
 }
 
 header {
-    margin: 0;
+  
     text-align: center;
     background-color: #F57B51;
     padding: 20px 0;
@@ -54,7 +54,7 @@ header h1 {
 div#aba {
     text-align: center;
     border-radius: 30px;
-    padding-left: 225px;
+    padding-left: 0px;
 }
 
 .inline-list {
@@ -69,7 +69,10 @@ div#aba {
     font-size: large;
     font-family: "Nunito-Light";
 }
-
+.Receita{
+    margin-left: 10px;
+    
+}
 #carneB {
     height: 450px;
     border-radius: 32px;
