@@ -44,8 +44,6 @@ header {
     text-align: center;
     background-color: #F57B51;
     padding: 20px 0;
-
-
 }
 
 header h1 {
@@ -54,61 +52,70 @@ header h1 {
 }
 
 div#aba {
-
     text-align: center;
     border-radius: 30px;
-
+    padding-left: 225px;
 }
-
 
 .inline-list {
     list-style-type: none;
     margin: 0;
     display: flex;
+}
 
-    a {
-        text-decoration: none;
-        color: white;
-        font-size: large;
-        font-family: "Nunito-Light";
-    }
+.inline-list a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: "Nunito-Light";
+}
 
+#carneB {
+    height: 450px;
+    border-radius: 32px;
+}
+
+.recipe {
+    width: 45%;
 }
 
 .inline-list li {
     padding: 0 180px;
-
 }
 
-.Receita h1 {
-    font-family: "Nunito-Bold";
-}
-
-.recipe-items h2{
+h1 {
     font-family: "Nunito-Black";
+}
+
+h2 {
+    font-family: "Nunito-Bold";
     background-color: #ddd;
-    width: 45%;
- border-radius: 10px;
- text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
 }
-ul{
+
+ul {
     list-style: none;
-    
-    
+    font-family: "Nunito-Light";
 }
 
+ol {
+    font-family: "Nunito-Light";
+}
 
+#relogio {
+    height: 30px;
+}
 
+.steps {
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+.steps p {
+    text-align: center;
+    font-family: "Nunito-Regular";
+}
 
 footer {
     text-align: center;
@@ -118,7 +125,7 @@ footer {
     background: #333;
     color: #ddd;
     position: relative;
-  }
+}
 
 footer p {
     font-family: "Nunito-Italic";
@@ -128,17 +135,85 @@ footer p {
     list-style-type: none;
     margin: 0;
     display: flex;
+}
 
-    a {
-        text-decoration: none;
-        color: #F57B51;
-        font-size: large;
-        font-family: "Nunito-Light"
-    }
-
+.inline-list1 a {
+    text-decoration: none;
+    color: #F57B51;
+    font-size: large;
+    font-family: "Nunito-Light";
 }
 
 .inline-list1 li {
     padding: 0 140px;
-    /* Aplica padding horizontal aos itens da lista */
+}
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+    .inline-list, .inline-list1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inline-list li, .inline-list1 li {
+        padding: 10px 0;
+    }
+    div#aba {
+        padding-left: 0;
+    }
+    .recipe {
+        width: 100%;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 700px) {
+    .inline-list, .inline-list1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inline-list li, .inline-list1 li {
+        padding: 15px 0;
+    }
+    div#aba {
+        padding-left: 0;
+    }
+    .recipe {
+        width: 80%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+    .inline-list {
+        justify-content: space-around;
+    }
+    .inline-list li {
+        padding: 0 60px;
+    }
+    .recipe {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1398px) {
+    .inline-list {
+        justify-content: space-between;
+    }
+    .inline-list li {
+        padding: 0 100px;
+    }
+    .recipe {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1399px) {
+    .inline-list {
+        justify-content: space-between;
+    }
+    .inline-list li {
+        padding: 0 180px;
+    }
+    .recipe {
+        width: 45%;
+    }
 }
