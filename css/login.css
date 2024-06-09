@@ -64,12 +64,12 @@ body {
 .header-title {
     flex: 1;
     text-align: center;
-    font-family: "Roboto-Bold";
+    font-family: "Nunito-Black";
     color: #333;
 }
 
 span {
-    font-family: "Roboto-Regular";
+    font-family: "Nunito-Regular";
 }
 
 .container {
@@ -101,16 +101,16 @@ span {
 }
 
 form {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Nunito-Regular";
     font-weight: 700;
     font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-}x
+}
 
-input {
+x input {
     background: #eee;
     border: none;
     padding: 12px 15px;
@@ -187,13 +187,13 @@ button.social.google {
 .signup-container .social-container button {
     color: white;
     border: 1px solid white;
-    font-family: "Roboto-Thin";
+    font-family: "Nunito-Thin";
 }
 
 .login-container .social-container button {
     color: white;
     border: 1px solid #F7753D;
-    font-family: "Roboto-Thin";
+    font-family: "Nunito-Thin";
 }
 
 /* Media Queries */

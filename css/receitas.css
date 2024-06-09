@@ -102,7 +102,9 @@ h2 {
     border-radius: 10px;
     text-align: center;
 }
-
+h3{
+    color: #ff6a28;
+}
 ul {
     list-style: none;
     font-family: "Nunito-Light";
@@ -110,6 +112,7 @@ ul {
 
 ol {
     font-family: "Nunito-Light";
+    
 }
 
 #relogio {
@@ -156,7 +159,9 @@ footer p {
     padding: 0 140px;
 }
 
-
+.items{
+    display: flex;
+}
 
 /* Media Queries */
 
