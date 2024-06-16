@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "Nunito-Black";
+  src: url(Nunito/Nunito-Black.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url(Nunito/Nunito-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-ExtraBold";
+  src: url(Nunito/Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-Italic";
+  src: url(Nunito/Nunito-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-Light";
+  src: url(Nunito/Nunito-Light.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-Medium";
+  src: url(Nunito/Nunito-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url(Nunito/Nunito-Regular.ttf);
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  text-align: center;
+  background-color: #F57B51;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: "Nunito-Black";
+  font-size: xx-large;
+}
+
+h2 {
+  font-family: "Nunito-Black";
+}
+
+p {
+  font-family: "Nunito-Regular";
+}
+
+div#aba {
+  text-align: center;
+  border-radius: 30px;
+}
+
+.inline-list {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.inline-list a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-family: "Nunito-Light";
+}
+
+.inline-list li {
+  padding: 0 250px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.recipes {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.recipe-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.recipe-item {
+  border: solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.recipe-item img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.recipe-item h3 {
+  font-family: "Nunito-Bold";
+}
+
+.Lrecipes {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito-Regular";
+}
+
+.Lrecipes h3 {
+  font-family: "Nunito-Bold";
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #ddd;
+  position: relative;
+}
+
+footer p {
+  font-family: "Nunito-Italic";
+}
+
+.inline-list1 {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.inline-list1 a {
+  text-decoration: none;
+  color: #F57B51;
+  font-size: large;
+  font-family: "Nunito-Light";
+}
+
+.inline-list1 li {
+  padding: 0 170px;
+  /* Aplica padding horizontal aos itens da lista */
+}
+
+/* Media query for screens up to 450px (smartphones) */
+@media screen and (max-width: 450px) {
+  header h1 {
+    font-size: large;
+  }
+
+  .inline-list, .inline-list1 {
+    flex-direction: column;
+  }
+
+  .inline-list li, .inline-list1 li {
+    padding: 10px 0;
+  }
+
+  .recipe-item {
+    width: 100%;
+  }
+
+  .recipe-gallery {
+    flex-direction: column;
+  }
+
+  .Lrecipes h3 {
+    font-size: medium;
+  }
+}
+
+/* Media query for screens from 451px to 700px (small tablets) */
+@media screen and (min-width: 451px) and (max-width: 700px) {
+  header h1 {
+    font-size: x-large;
+  }
+
+  .inline-list, .inline-list1 {
+    flex-direction: column;
+  }
+
+  .inline-list li, .inline-list1 li {
+    padding: 15px 0;
+  }
+
+  .recipe-item {
+    width: 90%;
+  }
+
+  .recipe-gallery {
+    flex-direction: column;
+  }
+
+  .Lrecipes h3 {
+    font-size: large;
+  }
+}
+
+/* Media query for screens from 701px to 1200px (tablets and small desktops) */
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  header h1 {
+    font-size: xx-large;
+  }
+
+  .inline-list, .inline-list1 {
+   
+    flex-direction: row;
+  }
+
+  .inline-list li, .inline-list1 li {
+    padding: 0 100px;
+  }
+
+  .recipe-item {
+    width: 45%;
+  }
+
+  .recipe-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Lrecipes h3 {
+    font-size: large;
+  }
+}
+
+/* Media query for screens from 1201px to 1398px (desktops) */
+@media screen and (min-width: 1201px) and (max-width: 1398px) {
+  header h1 {
+    font-size: xx-large;
+  }
+
+  .inline-list, .inline-list1 {
+    flex-direction: row;
+  }
+
+  .inline-list li, .inline-list1 li {
+    padding: 0 150px;
+  }
+
+  .recipe-item {
+    width: 30%;
+  }
+
+  .recipe-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Lrecipes h3 {
+    font-size: large;
+  }
+}
+
+/* Media query for screens from 1399px and up (large desktops) */
+@media screen and (min-width: 1399px) {
+  header h1 {
+    font-size: xx-large;
+  }
+
+  .inline-list, .inline-list1 {
+    flex-direction: row;
+  }
+
+  .inline-list li, .inline-list1 li {
+    padding: 0 250px;
+  }
+
+  .recipe-item {
+    width: 200px;
+  }
+
+  .recipe-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Lrecipes h3 {
+    font-size: large;
+  }
+}
