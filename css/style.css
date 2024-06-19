@@ -100,11 +100,12 @@ div#aba {
 }
 
 .recipe-item {
-  border: solid #ddd;
+  border: solid #F57B51;
   border-radius: 4px;
   margin: 10px;
   padding: 10px;
   width: 200px;
+  background-color: #ddd;
 }
 
 .recipe-item img {
@@ -169,11 +170,13 @@ footer p {
     font-size: large;
   }
 
-  .inline-list, .inline-list1 {
+  .inline-list,
+  .inline-list1 {
     flex-direction: column;
   }
 
-  .inline-list li, .inline-list1 li {
+  .inline-list li,
+  .inline-list1 li {
     padding: 10px 0;
   }
 
@@ -196,11 +199,13 @@ footer p {
     font-size: x-large;
   }
 
-  .inline-list, .inline-list1 {
+  .inline-list,
+  .inline-list1 {
     flex-direction: column;
   }
 
-  .inline-list li, .inline-list1 li {
+  .inline-list li,
+  .inline-list1 li {
     padding: 15px 0;
   }
 
@@ -223,12 +228,14 @@ footer p {
     font-size: xx-large;
   }
 
-  .inline-list, .inline-list1 {
-   
+  .inline-list,
+  .inline-list1 {
+
     flex-direction: row;
   }
 
-  .inline-list li, .inline-list1 li {
+  .inline-list li,
+  .inline-list1 li {
     padding: 0 100px;
   }
 
@@ -252,11 +259,13 @@ footer p {
     font-size: xx-large;
   }
 
-  .inline-list, .inline-list1 {
+  .inline-list,
+  .inline-list1 {
     flex-direction: row;
   }
 
-  .inline-list li, .inline-list1 li {
+  .inline-list li,
+  .inline-list1 li {
     padding: 0 150px;
   }
 
@@ -280,11 +289,13 @@ footer p {
     font-size: xx-large;
   }
 
-  .inline-list, .inline-list1 {
+  .inline-list,
+  .inline-list1 {
     flex-direction: row;
   }
 
-  .inline-list li, .inline-list1 li {
+  .inline-list li,
+  .inline-list1 li {
     padding: 0 250px;
   }
 
